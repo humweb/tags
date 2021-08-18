@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Tags\Test;
+namespace Humweb\Tags\Test;
 
 use CreateTagTables;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Tags\TagsServiceProvider;
+use Humweb\Tags\TagsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

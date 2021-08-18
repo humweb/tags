@@ -3,10 +3,10 @@
 namespace Spatie\Translatable\Test;
 
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Spatie\Tags\Tag;
-use Spatie\Tags\Test\TestCase;
-use Spatie\Tags\Test\TestClasses\TestAnotherModel;
-use Spatie\Tags\Test\TestClasses\TestModel;
+use Humweb\Tags\Tag;
+use Humweb\Tags\Test\TestCase;
+use Humweb\Tags\Test\TestClasses\TestAnotherModel;
+use Humweb\Tags\Test\TestClasses\TestModel;
 
 class HasTagsTest extends TestCase
 {

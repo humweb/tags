@@ -2,8 +2,8 @@
 
 namespace Spatie\Translatable\Test;
 
-use Spatie\Tags\Tag;
-use Spatie\Tags\Test\TestCase;
+use Humweb\Tags\Tag;
+use Humweb\Tags\Test\TestCase;
 
 class TagTest extends TestCase
 {

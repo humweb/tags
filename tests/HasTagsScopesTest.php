@@ -2,9 +2,9 @@
 
 namespace Spatie\Translatable\Test;
 
-use Spatie\Tags\Tag;
-use Spatie\Tags\Test\TestCase;
-use Spatie\Tags\Test\TestClasses\TestModel;
+use Humweb\Tags\Tag;
+use Humweb\Tags\Test\TestCase;
+use Humweb\Tags\Test\TestClasses\TestModel;
 
 class HasTagsScopesTest extends TestCase
 {

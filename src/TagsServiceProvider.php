@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Tags;
+namespace Humweb\Tags;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -10,7 +10,7 @@ class TagsServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-tags')
+            ->name('tags')
             ->hasConfigFile()
             ->hasMigration('create_tag_tables');
     }
