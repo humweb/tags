@@ -20,7 +20,7 @@ class Tag extends Model
             return $query;
         }
 
-        return $query->where('type', $type)->ordered();
+        return $query->where('type', $type);
     }
 
     public function scopeContaining(Builder $query, string $name): Builder
@@ -46,7 +46,7 @@ class Tag extends Model
 
     public static function getWithType(string $type): DbCollection
     {
-        return static::withType($type)->ordered()->get();
+        return static::withType($type)->get();
     }
 
     public static function findFromString(string $name, string $type = null)
